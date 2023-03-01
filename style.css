@@ -1,0 +1,147 @@
+ * {
+    font-size: "Monserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: #acb0b4;
+ }
+
+ .container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+ }
+
+ .heading {
+  background-color: #acb0b4;
+  padding: 10px;
+  color: ;
+  text-align: left;
+  padding-left: 20px;
+  margin-right: -15 px;
+}
+
+ .container .card-one {
+    padding: 40px 20px;
+    padding-left: 35px;
+    background-color:#d1d1d1;
+    width: 100%;
+    color: #778899;
+ }
+ 
+ .container .card-one .profile-img {
+   display: inline-flex;
+   margin-bottom: 5px;
+   margin-left: 15px;
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   border: 4px solid #778899;
+   background-image: url("profile.jpeg");
+   background-position: center top;
+   background-size: 100%;
+   box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+ }
+
+ .container .card-one .contact-box {
+   margin-top: 10px;
+ }
+  
+ .container .card-one .contact-box>* {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 0.3fr 1fr;
+   margin-top: 25px;
+   align-items: center;
+ }
+
+ .container .card-one .personal-box {
+   margin-top: 35px;
+ }
+
+ .container .card-one .personal-box .dot {
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   background-color: #313131;
+   border-radius: 50%;
+   margin-left: 4px;
+ }
+
+.active{
+  background-color: #778899 !important;
+ }
+
+ .container .card-one .hobbies-box {
+  margin-top: 35px;
+ }
+
+ .container .card-one .hobbies-box .icons2 {
+  margin: 10px 0px;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr;
+  font-size: 2.8em;
+  grid-row-gap: 15px;
+ }
+  
+.container .card-two {
+  background-color: #778899;
+  padding : 40px 20px;
+  padding-right : 75px;
+  color : #black;
+}
+
+.container .card-two .head-title {
+  font-size: 2.1em;
+  font-weight: 400px;
+  color: #d1d1d1;
+}
+
+.container .card-two .box {
+  display: inline-block;
+  padding: 2px 70px 2px 20px;
+  margin-left: -20px;
+  margin-top: 35px;
+  background-color: #d1d1d1
+} 
+
+.container .card-two .group-1 .desc {
+  margin-top: 25px;
+  line-height: 1,5px;
+}
+
+.container .card-two .group-2 .desc {
+  margin-top: 15px;
+  line-height: 20px;
+}
+
+.container .card-two .group-2 .desc ul {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.container .card-two .group-2 .desc ul::before {
+  content: "";
+  position: absolute;
+  margin-top: 12px;
+  left: -22px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+}
+
+.container .card-two .group-2 .desc ul li div:last-of-type {
+  color: #d1d1d1;
+  font-weight: bold;
+}
+
+
